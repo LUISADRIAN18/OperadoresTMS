@@ -17,6 +17,7 @@
         android:background="@color/white"
         android:padding="@dimen/common_padding_middle"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         >
 
 
@@ -182,6 +183,8 @@
 
             android:textSize="15sp"
             app:flow_verticalAlign="center"
+            android:textAlignment="viewEnd"
+
             />
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_registrarme"
