@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.OperadoresTMS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/rosa_principal</item>
-        <item name="colorPrimaryVariant">@color/azul_principal</item>
+        <item name="colorPrimary">@color/rojo_primario</item>
+        <item name="colorPrimaryVariant">@color/rojo_primario</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/azul_secundario</item>
