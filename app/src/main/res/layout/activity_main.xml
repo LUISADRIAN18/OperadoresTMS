@@ -14,11 +14,11 @@
         android:background="#80FFFFFF"
         android:scaleType="centerCrop"
         android:src="@drawable/bg_main"
-        app:layout_constraintBottom_toTopOf="@+id/linearMain"
-        app:layout_constraintEnd_toEndOf="parent"
 
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <ImageView
         android:layout_width="0dp"
@@ -156,10 +156,10 @@
         android:layout_height="30dp"
         android:src="@drawable/ic_call_monitoreo"
 
-        app:layout_constraintStart_toStartOf="@id/linearMain"
-        app:layout_constraintTop_toBottomOf="@id/linearMain"
-        app:layout_constraintEnd_toEndOf="@+id/tv_centro_monitoreo"
+        app:layout_constraintStart_toStartOf="@id/tv_centro_monitoreo"
 
+        app:layout_constraintEnd_toEndOf="@+id/tv_centro_monitoreo"
+        app:layout_constraintBottom_toTopOf="@+id/tv_centro_monitoreo"
 
         />
 
@@ -168,10 +168,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/linearMain"
-        app:layout_constraintTop_toBottomOf="@id/ic_call"
+        app:layout_constraintTop_toBottomOf="@id/linearMain"
+        app:layout_constraintBottom_toBottomOf="parent"
 
         android:text="Centro Monitoreo"
 
+
+        />
+
+    <TextView
+        android:id="@+id/tv_centro_soluciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/linearMain"
+        app:layout_constraintTop_toBottomOf="@id/linearMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:text="Centro Monitoreo"
+        />
+
+    <ImageView
+        android:id="@+id/ic_central_soluciones"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_support_agent"
+
+        app:layout_constraintStart_toStartOf="@id/tv_centro_soluciones"
+
+        app:layout_constraintEnd_toEndOf="@+id/tv_centro_soluciones"
+        app:layout_constraintBottom_toTopOf="@+id/tv_centro_monitoreo"
 
         />
 
