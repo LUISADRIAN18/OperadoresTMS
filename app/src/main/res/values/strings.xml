@@ -14,4 +14,7 @@
     <string name="hint_amaterno">Apellido Materno</string>
     <string name="hint_confirma_correo">Confirma correo electrónico</string>
     <string name="hint_empresa">Empresa</string>
+    <string name="tv_centro_monitoreo">Centro Monitoreo</string>
+    <string name="tv_central_soluciones">Central Soluciones</string>
+    <string name="tv_olvidaste_tu_contraseña">¿Olvidaste tu contraseña?</string>
 </resources>
